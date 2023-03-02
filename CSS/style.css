@@ -1,0 +1,226 @@
+.header {
+    list-style-type: none;
+    /* list ögesinin işaretini ayarlar */
+    margin: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Navbar Start */
+
+.pic-headerli a img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    /* profil foto. yuvarlak yapmak-Dairesel köşeler oluşturmak */
+    float: right;
+    /*  bir öğeyi kapsayıcısının sol veya sağ tarafına yerleştir */
+    margin-top: 6px;
+}
+
+.headerli a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 6px 6px;
+    /* içeriğin etrafında boşluk oluşturmak */
+    text-decoration: none;
+    /*  metin üzerindeki dekoratif çizgilerin görünümünü ayarla */
+
+}
+
+.headerli a:hover {
+    text-decoration: underline;
+}
+
+/*       Navbar End       */
+
+/* Search AREA Start */
+
+.container {
+    text-align: center;
+    margin: 100px;
+}
+
+.search-area {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 30px;
+}
+
+.search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    /* linkleri yan yana getirdim */
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    line-height: 24px;
+    fill: currentColor;
+    position: relative;
+}
+
+/* Search Area End */
+
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    width: 480px;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+}
+
+/* Voice Button Start */
+.voice {
+    flex: 1 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    width: 24px;
+    line-height: 44px;
+}
+
+.voice-img {
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
+
+/* Voice Button End */
+
+/* Buttons Start */
+
+
+.button {
+    display: block;
+    text-align: center;
+    /* metin hızalama */
+    height: 70px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+}
+
+.buttonsearch {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    /* Çerçeveyi yuvarlaklaştırma */
+    border: 1px solid #f8f9fa;
+    /* çerçeve rengi ayarlama */
+    margin-top: 100px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Button End */
+
+/* Footer Start */
+
+.footer {
+    
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 20px;
+    /* bir satır kutusunun yüksekliğini ayarlar */
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    bottom: 0;
+    /*  bir öğenin dikey konumunun ayarlanmasına katılır */
+    position: fixed;
+    /*  bir öğenin bir belgede nasıl konumlandırılacağını ayarlar. */
+    
+}
+
+.footerlim {
+    float: left;
+    padding: 6px;
+    /* linkleri birbirinden ayırma-aralarında boşluk bırakma */
+    text-decoration: none;
+    /* yazıların altındaki çizgileri kaldırma */
+    text-align: center;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    justify-content: space-evenly;
+    padding: 14px 16px ;
+    flex-wrap: wrap;
+    color: #70757a;
+    margin-left: 14px;
+    margin-right: -20px;
+    
+
+}
