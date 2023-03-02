@@ -8,5 +8,5 @@ Google'ın bugünkü ana sayfasını tasarlamak.
 [Patika.dev](https://app.patika.dev/paths)
 
 Proje örnek görsel:
-
+![örnekgörsel](https://github.com/nihatfurkan/googleodev3/blob/main/assets/ornekprojeresim.png)
 
